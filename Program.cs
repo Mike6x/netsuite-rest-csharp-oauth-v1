@@ -19,11 +19,6 @@ namespace netsuiteToken
 
                 String header = "Authorization: OAuth ";
 
-                string consumer_id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-                string consumer_secret = "xxxxxxxxxxxxxxxxx";
-                string token_id = "xxxxxxxxxxxxx";
-                string token_secret = "xxxxxxxxx";
-                string param = "&type=purch_invoice_nontrade&update_from=2022-05-01&update_to=2022-05-08";
 
 
                 Uri uri = new Uri((url + param));
