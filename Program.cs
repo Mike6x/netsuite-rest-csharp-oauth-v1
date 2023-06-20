@@ -14,11 +14,15 @@ namespace netsuiteToken
             try
             {
                 string NS_realm = "xxxx";
-                string url = "https://xxxx.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=xxxx&deploy=1";
+                string url = "https://xxxx.restlets.api.netsuite.com/app/site/hosting/restlet.nl?script=SCRIPT_ID&deploy=1";
                 HttpWebRequest request = null;
 
                 String header = "Authorization: OAuth ";
-
+                string consumer_id = "your consumerid";
+                string consumer_secret = "your consumer_secre ";
+                string token_id = "your token_id";
+                string token_secret = "you token_secret";
+                string param = "&type=serial&modify_to=2023-03-01&modify_from=2023-03-01&serial_num=";
 
 
                 Uri uri = new Uri((url + param));
